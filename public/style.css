@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.posting {
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+::placeholder {
+    font-style: italic;
+}
+.fb {
+    font-weight: bold !important;
+    font-size: 36px !important;
+    color: #1877F2 !important;
+}
+.outside-posting {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    outline: none;
+    border: none;
+}
+.hide {
+    display: none;
+}
+#like-btn ,#comment-btn,#share-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: lighter !important;
+    font-size: 24px;
+    padding-left: 20px;
+}
+.like-button {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.navbar{
+    position: sticky !important;
+    z-index: 1 !important;
+    top: 0 !important;
+    padding-bottom: 0px !important;
+}
+
